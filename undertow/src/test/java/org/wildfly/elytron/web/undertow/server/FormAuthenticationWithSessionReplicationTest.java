@@ -34,7 +34,7 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.message.BasicNameValuePair;
-import org.junit.Ignore;
+//import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 import org.wildfly.elytron.web.undertow.server.util.InfinispanSessionManager;
@@ -53,7 +53,7 @@ import org.wildfly.security.permission.PermissionVerifier;
  *
  * @author <a href="mailto:psilva@redhat.com">Pedro Igor</a>
  */
-@Ignore("https://github.com/wildfly-security/elytron-web/issues/45")
+//@Ignore("https://github.com/wildfly-security/elytron-web/issues/45")
 public class FormAuthenticationWithSessionReplicationTest extends AbstractHttpServerMechanismTest {
 
     @Rule
